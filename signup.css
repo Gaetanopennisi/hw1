@@ -1,0 +1,162 @@
+body{
+  font-family:'Mitr', Helvetica, sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url(img_hw1/Immagine.png);
+  background-repeat:space;
+  background-size: 200px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.container {
+    max-width: 300px;
+    background-color: #ffbc0d;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+  
+  }
+  
+  form .head {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  
+  form .head p {
+    font-size: 1.1rem;
+    color: #7C6666;
+  }
+  
+  form .inputs {
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    margin: 1rem 0.5rem;
+    border-radius: 8px;
+    border-bottom: none;
+    outline: 0;
+  }
+  
+  form .inputs input {
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.299);
+    font-weight: 200;
+  }
+  
+  
+  #iscrizione{
+    background: cornsilk;
+    color: #2b2929;
+    border: 2px solid cornsilk;
+    width: 120px;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow: hidden;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .allow input{
+    width: 20px;
+  }
+  
+  
+#iscrizione:hover {
+    background-color: #ffbc0d;
+    color: cornsilk;
+  }
+  
+  div.form-footer {
+    
+    background-color: #ffbc0d;
+    padding: 16px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .form-footer a {
+    font-weight: bolder;
+    color: #6793d6;
+    text-decoration: none;
+  }
+ 
+  .form-footer p{
+    margin-top: 0px;
+  }
+
+  /*Errore di inserimento*/
+  
+  .errorj label {
+    color: #d01b2d;
+}
+
+.errorj span {
+  display: block;
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+    z-index: 3;
+    margin-bottom: 7px;
+    border: 1px solid #d01b2d ;
+}
+
+.errorj img {
+    opacity: 1;
+}
+
+.errorj input, .errorj #upload {
+    border-color: #d01b2d;
+}
+  
+form img{
+    opacity: 0;
+    width: 10px;
+    margin-right: 10px;
+}
+
+form span {
+    opacity: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    transition: opacity 0.3s ease;
+}
+
+/*logo*/
+body img{
+  height: 80px;
+  position: absolute;
+  border-radius: 100%;
+}
+
+
+form .head span#isc{
+  font-size: 1.6rem;
+  font-weight: bolder;
+  color: white;
+  opacity: 1;
+}
